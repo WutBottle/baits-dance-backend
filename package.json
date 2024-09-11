@@ -2,8 +2,7 @@
   "name": "baits-dance-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
-  "type": "module",
+  "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
     "build": "rollup -c",
@@ -13,7 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "koa": "^2.15.3",
-    "mysql2": "^3.11.0"
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.1",
+    "mysql2": "^3.11.0",
+    "sequelize": "^6.37.3"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^26.0.1",
